@@ -1,5 +1,5 @@
 package = "lua-resty-fluentd"
-version = "0.0.1"
+version = "0.0.1-0"
 source = {
     url = "git://github.com/msempere/lua-resty-fluentd.git",
     tag = "v0.0.1"
