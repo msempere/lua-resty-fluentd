@@ -5,7 +5,7 @@ Lua fluentd logger for the ngx_lua based on the cosocket API
 
 ```lua
 local fluentd = require "resty.fluentd"
-local logger = fluentd.new()
+local logger = fluentd:new()
 
 local ok, err = logger:connect("127.0.0.1", 24224)
 if not ok then
