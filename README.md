@@ -15,3 +15,9 @@ end
 
 logger:log("a.test.tag", {"type":"event", "timestamp":12345678})
 ```
+
+## Install
+
+```
+luarocks install lua-resty-fluentd
+```
